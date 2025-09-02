@@ -8,8 +8,8 @@ Decision{Jarak >= 5}
 JarakLebih(JarakLebih = Jarak - 5)
 ProcessLebih(TotalLebih = JarakLebih * 3rb)
 ProcessKurang(TotalKurang = 8rb)
-TerminatorLebih([TotalLebih])
-TerminatorKurang([TotalKurang])
+TerminatorLebih[\TotalLebih\]
+TerminatorKurang[\TotalKurang\]
 Stop((Stop))
 
 Start --> Input
