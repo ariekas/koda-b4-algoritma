@@ -13,9 +13,9 @@ Stop((Stop))
 
 Start --> Input
 Input --> Decision
-Decision -- Yes --> JL
+Decision -- Yes --> Lebih
 Decision -- No --> ProcessKurang
-JL --> ProcessLebih
+Lebih --> ProcessLebih
 ProcessKurang & ProcessLebih  --> Total
 Total --> Stop
 ```
