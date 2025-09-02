@@ -1,14 +1,14 @@
 DECLARE Jarak : INTEGER
-DECLARE TotalLebih : INTEGER
-DECLARE TotalKurang : INTEGER
+DECLARE TL : INTEGER
+DECLARE TK : INTEGER
 
-Jarak <- 11
+Jarak <- 3
 
 IF Jarak >= 5 THEN
- Jarak
- TotalLebih <- (Jarak - 5) * 3000 + 8000
-OUTPUT TotalLebih
+JL <- Jarak - 5
+ TL <- JL * 3000 + 8000
+OUTPUT TL
 ELSE
-TotalKurang <- 8000
-OUTPUT TotalKurang
+TK <- 8000
+OUTPUT TK
 ENDIF
