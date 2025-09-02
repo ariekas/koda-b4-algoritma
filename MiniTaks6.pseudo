@@ -1,0 +1,12 @@
+DECLARE number : INTEGER
+DECLARE hasil : INTEGER
+
+number <- 20
+hasil <- number % 2 
+
+IF hasil  THEN
+OUTPUT "ganjil"
+ELSE
+OUTPUT "genap"
+ENDIF
+
