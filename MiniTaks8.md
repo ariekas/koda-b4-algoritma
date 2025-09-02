@@ -6,8 +6,8 @@ Start((Start))
 Input[\Jarak\]
 Decision{Jarak >= 5}
 JL(JL = Jarak - 5)
-ProcessLebih(TL = JL * 3rb + 8rb)
-ProcessKurang(TK = 8rb)
+ProcessLebih(TL = JL * 3000 + 8000)
+ProcessKurang(TK = 8000)
 TerminatorLebih[\TL\]
 TerminatorKurang[\TK\]
 Stop((Stop))
