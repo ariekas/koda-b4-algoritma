@@ -1,12 +1,12 @@
 DECLARE number : INTEGER
 DECLARE hasil : INTEGER
 
-number <- 20
+number <- 3
 hasil <- number % 2 
 
-IF hasil  THEN
-OUTPUT "ganjil"
-ELSE
+IF hasil == 0 THEN
 OUTPUT "genap"
+ELSE
+OUTPUT "ganjil"
 ENDIF
 
