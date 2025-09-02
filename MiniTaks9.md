@@ -38,6 +38,8 @@ CekD -- No --> CekE
 CekE -- Yes --> E
 CekE -- No --> CekF
 CekF -- Yes --> F
+CekF -- No --> Error
+
 
 A --> Stop
 B --> Stop
