@@ -4,7 +4,7 @@
 flowchart TD
 Start([Start])
 Input[\Jari jari = r\]
-Decision{dapat di bagi 7?}
+Decision{r / 7}
 R1[\pi = 3,14\]
 R2[\pi = 22/7\]
 Perhitungan(pi*r^2)
@@ -24,7 +24,7 @@ Stop(((stop)))
 flowchart TD
 Start([Start])
 Input[\Jari jari = r\]
-Decision{dapat di bagi 7?}
+Decision{r / 7}
 R1[\pi = 3,14\]
 R2[\pi = 22/7\]
 Perhitungan(2 * pi * r)
