@@ -1,0 +1,36 @@
+DECLARE R : INTEGER
+DECLARE Pi : INTEGER
+DECLARE Luas : INTEGER
+
+R <- 7
+Pi <- R % 7
+
+IF Pi == 0 THEN
+Pi <- 22/7*R*R
+OUTPUT "Hasil luas lingkaran", Luas <- Pi
+ELSE 
+Pi <- 3.14*R*R
+OUTPUT "Hasil luas lingkaran", Luas <- Pi
+ENDIF
+
+
+
+DECLARE JariJari : INTEGER
+DECLARE V : INTEGER
+DECLARE Keliling : INTEGER
+
+JariJari <- 7
+V <- JariJari % 7
+
+IF V == 0 THEN
+V <- 2*22/7*JariJari
+OUTPUT "Hasil Keliling lingkaran", Keliling <- V
+ELSE 
+V <- 2*3.14*JariJari
+OUTPUT "Hasil Keliling lingkaran", Keliling <- V
+ENDIF
+
+
+
+
+
