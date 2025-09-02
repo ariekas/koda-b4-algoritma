@@ -1,11 +1,11 @@
 DECLARE Jarak : INTEGER
 DECLARE Total : INTEGER
 
-Jarak <- 10
+Jarak <- 15
 
 IF Jarak >= 5 THEN
-JL <- Jarak - 5
- Total <- JL * 3000 + 8000
+Lebih <- Jarak - 5
+ Total <- Lebih * 3000 + 8000
 OUTPUT Total
 ELSE
 Total <- 8000
