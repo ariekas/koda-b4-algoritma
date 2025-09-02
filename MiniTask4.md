@@ -2,12 +2,12 @@
 
 ```mermaid
 flowchart TD
-Start([Start])
+Start(((start)))
 InputAngka[\Masukan angka\]
 Perhitungan{angka : 2 = 0}
 ProsessGanjil(angka ganjil)
 ProsessGenap(angka genap)
-Stop([stop])
+Stop(((stop)))
 
 Start --> InputAngka
 InputAngka ---> Perhitungan
