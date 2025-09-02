@@ -1,0 +1,14 @@
+DECLARE Jarak : INTEGER
+DECLARE TotalLebih : INTEGER
+DECLARE TotalKurang : INTEGER
+
+Jarak <- 11
+
+IF Jarak >= 5 THEN
+ Jarak
+ TotalLebih <- (Jarak - 5) * 3000 + 8000
+OUTPUT TotalLebih
+ELSE
+TotalKurang <- 8000
+OUTPUT TotalKurang
+ENDIF
