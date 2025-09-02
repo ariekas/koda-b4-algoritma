@@ -5,13 +5,13 @@ flowchart TD
 
 Start((Start))
 Input[\Score\]
-CetakErrro{ > 100 OR  < 0}
-CekA{ >= 90 &  <= 100}
-CekB{ >= 75 &  <= 89}
-CekC{ >= 60 &  <= 74}
-CekD{ >= 40 &  <= 59}
-CekE{ >= 20 &  <= 39}
-CekF{ >= 0 &  <= 19}
+CetakErrro{ Score > 100 OR Score < 0}
+CekA{Score >= 90 & Score <= 100}
+CekB{Score >= 75 & Score <= 89}
+CekC{Score >= 60 & Score <= 74}
+CekD{Score >= 40 & Score <= 59}
+CekE{Score >= 20 & Score <= 39}
+CekF{Score >= 0 & Score <= 19}
 
 A[\Grade A\]
 B[\Grade B\]
