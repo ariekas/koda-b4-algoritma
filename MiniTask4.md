@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart TD
-Start(((start)))
+Start((start))
 InputAngka[\Masukan angka\]
 Perhitungan{angka : 2 = 0}
 ProsessGanjil(angka ganjil)
