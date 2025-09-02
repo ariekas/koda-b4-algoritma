@@ -5,8 +5,8 @@ flowchart TD
 Start((start))
 InputAngka[\Masukan angka\]
 Perhitungan{angka : 2 = 0}
-ProsessGanjil(angka ganjil)
-ProsessGenap(angka genap)
+ProsessGanjil("ganjil")
+ProsessGenap("genap")
 Stop(((stop)))
 
 Start --> InputAngka
