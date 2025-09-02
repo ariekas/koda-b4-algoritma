@@ -1,10 +1,10 @@
-DECLARE number : INTEGER
-DECLARE hasil : INTEGER
+DECLARE Number : INTEGER
+DECLARE Hasil : INTEGER
 
-number <- 3
-hasil <- number % 2 
+Number <- 5
+Hasil <- Number % 2 
 
-IF hasil == 0 THEN
+IF Hasil == 0 THEN
 OUTPUT "genap"
 ELSE
 OUTPUT "ganjil"
