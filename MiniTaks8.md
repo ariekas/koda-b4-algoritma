@@ -5,18 +5,20 @@ flowchart TD
 Start((Start))
 Input[\Jarak\]
 Decision{Jarak >= 5}
-ProcessLebih(TotalLebih = (Jarak - 5) * 3rb + 5rb)
-ProcessKurang(TotalKurang = 5rb)
+JarakLebih(JarakLebih = Jarak - 5)
+ProcessLebih(TotalLebih = JarakLebih * 3rb)
+ProcessKurang(TotalKurang = 8rb)
 TerminatorLebih([TotalLebih])
 TerminatorKurang([TotalKurang])
 Stop((Stop))
 
 Start --> Input
 Input --> Decision
-Decision -- YES --> ProcessLebih
+Decision -- Yes --> JarakLebih
 Decision -- No --> ProcessKurang
-ProcessLebih --> TerminatorLebih
+JarakLebih --> ProcessLebih
 ProcessKurang --> TerminatorKurang
-TerminatorLebih & TerminatorKurang --> Stop
-
+ProcessLebih --> TerminatorLebih
+TerminatorKurang --> Stop
+TerminatorLebih --> Stop
 ```
