@@ -9,7 +9,7 @@ Lebih(Lebih = Jarak - 5)
 ProcessLebih(Total = JL * 3000 + 8000)
 ProcessKurang(Total = 8000)
 Total[\Total\]
-Stop((Stop))
+Stop(((Stop)))
 
 Start --> Input
 Input --> Decision
